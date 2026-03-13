@@ -41,7 +41,7 @@ const Dashboard = () => {
                     {learningStatus === 'Graduate' && (
                         <div className="px-4 py-2 bg-gradient-to-r from-yellow-400 to-amber-500 rounded-full text-white font-bold flex items-center shadow-md">
                             <Trophy className="w-5 h-5 mr-2" />
-                            TechPath Graduate
+                            SkillNavigator Graduate
                         </div>
                     )}
                 </div>
