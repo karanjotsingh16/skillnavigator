@@ -1,0 +1,734 @@
+{
+    "data-science": [
+        {
+            "id": 1,
+            "question": "Which of the following describes the 3Vs of Big Data?",
+            "options": [
+                "Velocity, Value, Veracity",
+                "Volume, Velocity, Variety",
+                "Variance, Value, Variety",
+                "Verification, Visualization, Velocity"
+            ],
+            "correct": 1,
+            "explanation": "The basic 3Vs of Big Data are Volume (amount), Velocity (speed), and Variety (types of data)."
+        },
+        {
+            "id": 2,
+            "question": "What is the primary function of Hadoop?",
+            "options": [
+                "Running web servers",
+                "Statistical computing",
+                "Distributed storage and processing of large data sets",
+                "Data visualization"
+            ],
+            "correct": 2,
+            "explanation": "Hadoop is an open-source framework used for distributed storage and processing of massive data sets using MapReduce."
+        },
+        {
+            "id": 3,
+            "question": "Which tool is primarily known for Data Visualization?",
+            "options": [
+                "Hadoop",
+                "Tableau",
+                "AWS EC2",
+                "Kubernetes"
+            ],
+            "correct": 1,
+            "explanation": "Tableau is a widely-used data visualization tool out of the options."
+        },
+        {
+            "id": 4,
+            "question": "What is 'Data Mining'?",
+            "options": [
+                "Digging for physical hard drives",
+                "Deleting old unused data",
+                "The practice of analyzing large databases to generate new information",
+                "Storing data securely in the cloud"
+            ],
+            "correct": 2,
+            "explanation": "Data mining involves examining large databases in order to generate new, actionable information and spot patterns."
+        },
+        {
+            "id": 5,
+            "question": "Which phase of the Data Science Lifecycle involves 'Data Cleansing'?",
+            "options": [
+                "Capture",
+                "Maintain",
+                "Analyze",
+                "Communicate"
+            ],
+            "correct": 1,
+            "explanation": "Data cleansing occurs in the 'Maintain' phase, preparing raw data for actual processing and analysis."
+        },
+        {
+            "id": 6,
+            "question": "What role primarily focuses on building the infrastructure and pipelines for data?",
+            "options": [
+                "Data Analyst",
+                "Data Scientist",
+                "Data Engineer",
+                "UI Designer"
+            ],
+            "correct": 2,
+            "explanation": "Data Engineers build and maintain the massive architectures (like Hadoop pipelines/databases) that scientists use to analyze data."
+        },
+        {
+            "id": 7,
+            "question": "Which of the following is an example of Unstructured Data?",
+            "options": [
+                "An Excel spreadsheet of names",
+                "A SQL database table of prices",
+                "A folder of 10,000 JPEG images",
+                "A CSV file of zip codes"
+            ],
+            "correct": 2,
+            "explanation": "Images, videos, and large text blobs are unstructured; they do not fit cleanly into traditional rows and columns."
+        },
+        {
+            "id": 8,
+            "question": "What does Predictive Analysis do?",
+            "options": [
+                "Explains what happened in the past",
+                "Uses historical data to forecast future outcomes",
+                "Cleans raw data automatically",
+                "Creates visual dashboards"
+            ],
+            "correct": 1,
+            "explanation": "Predictive analysis uses statistical models and forecasting techniques to understand the future based on the past."
+        },
+        {
+            "id": 9,
+            "question": "Why is cloud computing vital for modern Big Data?",
+            "options": [
+                "It provides on-demand massive computing power without hardware overhead",
+                "It makes the data smaller",
+                "It completely eliminates the need for Data Scientists",
+                "It forces data to be structured"
+            ],
+            "correct": 0,
+            "explanation": "Cloud infrastructure allows companies to spin up thousands of servers for a few hours to process data, rather than buying them."
+        },
+        {
+            "id": 10,
+            "question": "In the context of the 3Vs, what does 'Velocity' refer to?",
+            "options": [
+                "How fast the CPU is",
+                "The speed at which new data is generated and moves",
+                "The time it takes to download a file",
+                "The speed of the database query"
+            ],
+            "correct": 1,
+            "explanation": "Velocity refers to the immense speed at which new data is continually being created (e.g., thousands of tweets a second)."
+        }
+    ],
+    "ai-ml": [
+        {
+            "id": 1,
+            "question": "What is Natural Language Processing (NLP)?",
+            "options": [
+                "A framework for neural networks",
+                "The ability of machines to understand and generate human language",
+                "A tool for autonomous driving",
+                "A type of database administration"
+            ],
+            "correct": 1,
+            "explanation": "NLP gives computers the ability to process, understand, and generate human language."
+        },
+        {
+            "id": 2,
+            "question": "Which statement best describes an Expert System?",
+            "options": [
+                "A system that learns purely by trial and error",
+                "A system that uses continuous fuzzy logic",
+                "An AI program that emulates the decision-making ability of a human expert via rules",
+                "An autonomous physical robot"
+            ],
+            "correct": 2,
+            "explanation": "Expert Systems are rule-based ('If-Then') AI programs designed to solve complex problems by reasoning through rigid bodies of knowledge."
+        },
+        {
+            "id": 3,
+            "question": "What does Generative AI primarily do?",
+            "options": [
+                "Creates new content like text, images, or audio",
+                "Classifies images into existing categories",
+                "Secures networks from attacks",
+                "Compiles code efficiently"
+            ],
+            "correct": 0,
+            "explanation": "Generative AI focuses on the generation of novel content, distinct from predictive or classificatory models."
+        },
+        {
+            "id": 4,
+            "question": "Deep Learning is a specialized subset of which field?",
+            "options": [
+                "Expert Systems",
+                "Machine Learning",
+                "Cloud Computing",
+                "Natural Language Processing"
+            ],
+            "correct": 1,
+            "explanation": "Deep Learning is a subset of Machine Learning utilizing deeply layered neural networks to process complex data."
+        },
+        {
+            "id": 5,
+            "question": "What is 'Training Data'?",
+            "options": [
+                "A tutorial for humans to learn AI",
+                "The dataset used to evaluate a final model",
+                "The initial dataset used to teach an ML algorithm how to make predictions",
+                "Data that has been deleted"
+            ],
+            "correct": 2,
+            "explanation": "Training data is the foundational set of examples given to an ML algorithm so it can learn patterns and weights."
+        },
+        {
+            "id": 6,
+            "question": "Which of these is a popular framework for building Deep Learning models?",
+            "options": [
+                "React",
+                "TensorFlow",
+                "Hadoop",
+                "Docker"
+            ],
+            "correct": 1,
+            "explanation": "TensorFlow (and PyTorch) are the leading open-source libraries for creating Deep Learning neural networks."
+        },
+        {
+            "id": 7,
+            "question": "What characterizes 'Fuzzy Logic'?",
+            "options": [
+                "Strict True/False binary choices",
+                "Processing 'degrees of truth' between 0 and 1",
+                "Randomly guessing answers",
+                "Only analyzing images"
+            ],
+            "correct": 1,
+            "explanation": "Fuzzy logic allows systems to make decisions based on partial truths, handling ambiguity rather than strict Boolean True/False."
+        },
+        {
+            "id": 8,
+            "question": "Tesla Autopilot relies heavily on which AI subset to parse camera feeds?",
+            "options": [
+                "Expert Systems",
+                "Computer Vision",
+                "Natural Language Processing",
+                "Fuzzy Logic"
+            ],
+            "correct": 1,
+            "explanation": "Computer Vision is the field of AI that trains computers to interpret and understand the visual world using digital images."
+        },
+        {
+            "id": 9,
+            "question": "Which job role focuses on language models and speech recognition?",
+            "options": [
+                "AI Ethicist",
+                "Machine Learning Engineer",
+                "NLP Scientist",
+                "Data Analyst"
+            ],
+            "correct": 2,
+            "explanation": "An NLP Scientist specifically researches and builds models dealing with human language parsing and generation."
+        },
+        {
+            "id": 10,
+            "question": "What is one of the main goals of an AI Ethicist?",
+            "options": [
+                "Making AI run faster",
+                "Ensuring AI models are unbiased and transparent",
+                "Writing database queries",
+                "Designing hardware chips"
+            ],
+            "correct": 1,
+            "explanation": "AI Ethicists ensure that models adhere to safe, unbiased, and compliant practices before deployment to the public."
+        }
+    ],
+    "cybersecurity": [
+        {
+            "id": 1,
+            "question": "What does the CIA triad stand for in Cybersecurity?",
+            "options": [
+                "Central Intelligence Agency",
+                "Confidentiality, Integrity, Availability",
+                "Control, Information, Access",
+                "Cybersecurity, Intelligence, Automation"
+            ],
+            "correct": 1,
+            "explanation": "The CIA Triad is the core model of information security, ensuring data is kept secret, accurate, and accessible."
+        },
+        {
+            "id": 2,
+            "question": "What is a 'Zero-day' attack?",
+            "options": [
+                "An attack happening at midnight",
+                "An attack that leaves zero trace",
+                "An attack exploiting a vulnerability the vendor does not yet know about",
+                "A physical attack on servers"
+            ],
+            "correct": 2,
+            "explanation": "Zero-day attacks exploit software flaws before the software vendor has created a patch."
+        },
+        {
+            "id": 3,
+            "question": "Phishing primarily involves:",
+            "options": [
+                "Using brute-force to guess passwords",
+                "Social engineering to trick users into revealing sensitive information",
+                "Overloading a server with traffic",
+                "Installing physical hardware on a network"
+            ],
+            "correct": 1,
+            "explanation": "Phishing is a social engineering attack often via email, designed to steal user credentials by masquerading as a trusted entity."
+        },
+        {
+            "id": 4,
+            "question": "Which part of the CIA Triad does a 'Denial of Service' (DoS) attack directly violate?",
+            "options": [
+                "Confidentiality",
+                "Integrity",
+                "Availability",
+                "Authentication"
+            ],
+            "correct": 2,
+            "explanation": "DoS attacks flood servers to crash them, denying legitimate users 'Availability' to the resource."
+        },
+        {
+            "id": 5,
+            "question": "What does Ransomware do?",
+            "options": [
+                "Deletes all data instantly",
+                "Encrypts a victim's files and demands payment to decrypt them",
+                "Spies on user keystrokes silently",
+                "Creates a fake antivirus popup"
+            ],
+            "correct": 1,
+            "explanation": "Ransomware holds digital files hostage via strong encryption until a monetary ransom is paid."
+        },
+        {
+            "id": 6,
+            "question": "What is the tool 'Wireshark' primarily used for?",
+            "options": [
+                "Cracking passwords",
+                "Packet analysis to inspect raw network traffic",
+                "Building firewalls",
+                "Writing malware"
+            ],
+            "correct": 1,
+            "explanation": "Wireshark is a packet sniffer that allows analysts to see exactly what data is moving across a network in real-time."
+        },
+        {
+            "id": 7,
+            "question": "What is the primary role of a 'Penetration Tester'?",
+            "options": [
+                "To legally hack into systems to find flaws before criminals do",
+                "To reset employee passwords",
+                "To physically guard server rooms",
+                "To write company privacy policies"
+            ],
+            "correct": 0,
+            "explanation": "Penetration Testers (Ethical Hackers) simulate cyberattacks to help organizations patch vulnerabilities proactively."
+        },
+        {
+            "id": 8,
+            "question": "Ensuring a file has not been tampered with or altered in transit relates to which concept?",
+            "options": [
+                "Confidentiality",
+                "Integrity",
+                "Availability",
+                "Authorization"
+            ],
+            "correct": 1,
+            "explanation": "Integrity guarantees that the data received is exactly the data that was sent, often verified via digital hash algorithms."
+        },
+        {
+            "id": 9,
+            "question": "Which of the following describes an 'Insider Threat'?",
+            "options": [
+                "A hacker breaking through a firewall",
+                "A disgruntled employee abusing their legitimate access to steal data",
+                "A lightning strike taking out a server",
+                "A completely random system crash"
+            ],
+            "correct": 1,
+            "explanation": "Insider threats involve people who already have legitimate, authorized access to a network acting maliciously or negligently."
+        },
+        {
+            "id": 10,
+            "question": "Using a strong VPN on public Wi-Fi primarily protects which aspect of the CIA triad?",
+            "options": [
+                "Confidentiality",
+                "Integrity",
+                "Availability",
+                "Accountability"
+            ],
+            "correct": 0,
+            "explanation": "A VPN encrypts your traffic, keeping your data 'Confidential' so attackers on the same public Wi-Fi cannot read it."
+        }
+    ],
+    "devops-testing": [
+        {
+            "id": 1,
+            "question": "What is the primary goal of continuous integration (CI)?",
+            "options": [
+                "To eliminate all bugs",
+                "To merge code changes into a central repository frequently and run automated tests",
+                "To automatically write code",
+                "To replace manual testers completely"
+            ],
+            "correct": 1,
+            "explanation": "CI ensures developers continually merge code, catching integration bugs early via automated unit tests."
+        },
+        {
+            "id": 2,
+            "question": "Docker is primarily used for:",
+            "options": [
+                "Version control",
+                "Database management",
+                "Containerization",
+                "Network monitoring"
+            ],
+            "correct": 2,
+            "explanation": "Docker allows applications to be packaged with their dependencies into isolated containers, ensuring they run anywhere."
+        },
+        {
+            "id": 3,
+            "question": "What type of testing ensures that new changes do not break existing functionality?",
+            "options": [
+                "Unit Testing",
+                "Acceptance Testing",
+                "Regression Testing",
+                "Usability Testing"
+            ],
+            "correct": 2,
+            "explanation": "Regression testing reruns previous tests to ensure that fresh code additions haven't 'regressed' or broken working features."
+        },
+        {
+            "id": 4,
+            "question": "What is Kubernetes primarily designed to do?",
+            "options": [
+                "Write automated test scripts",
+                "Provide Version Control",
+                "Orchestrate and manage massive clusters of containers",
+                "Design User Interfaces"
+            ],
+            "correct": 2,
+            "explanation": "Kubernetes is a container orchestration platform that manages the scaling, deployment, and networking of thousands of Docker containers."
+        },
+        {
+            "id": 5,
+            "question": "In CI/CD, what does 'CD' stand for?",
+            "options": [
+                "Code Delivery",
+                "Continuous Deployment / Delivery",
+                "Compile Document",
+                "Containerized Development"
+            ],
+            "correct": 1,
+            "explanation": "CD stands for Continuous Delivery (code is ready to ship) or Continuous Deployment (code ships automatically to production)."
+        },
+        {
+            "id": 6,
+            "question": "Which tool is primarily known for automating End-to-End (E2E) browser testing?",
+            "options": [
+                "Git",
+                "Docker",
+                "Selenium",
+                "Ansible"
+            ],
+            "correct": 2,
+            "explanation": "Selenium (along with Cypress) is used to simulate a real human interacting with a web browser to test full application flows."
+        },
+        {
+            "id": 7,
+            "question": "How does DevOps differ from the traditional 'Waterfall' software model?",
+            "options": [
+                "DevOps focuses on massive, infrequent yearly releases",
+                "DevOps emphasizes collaboration, automation, and small, frequent releases",
+                "DevOps eliminates the need for developers",
+                "Waterfall uses containers"
+            ],
+            "correct": 1,
+            "explanation": "DevOps breaks down silos between devs and operations to deliver software in rapid, continuous, automated cycles."
+        },
+        {
+            "id": 8,
+            "question": "Testing a single individual function in isolation is known as:",
+            "options": [
+                "System Testing",
+                "Unit Testing",
+                "Integration Testing",
+                "Acceptance Testing"
+            ],
+            "correct": 1,
+            "explanation": "Unit testing is the lowest level of testing, validating that a specific function returns the expected result."
+        },
+        {
+            "id": 9,
+            "question": "What does a Site Reliability Engineer (SRE) do?",
+            "options": [
+                "Designs logos",
+                "Guards the physical server room",
+                "Applies software engineering approaches to ensure systems are highly available and scalable",
+                "Writes marketing copy"
+            ],
+            "correct": 2,
+            "explanation": "SREs treat operations as a software problem, building automation to ensure uptime and performance."
+        },
+        {
+            "id": 10,
+            "question": "What does 'Infrastructure as Code' (IaC) mean?",
+            "options": [
+                "Writing infrastructure manuals in Word docs",
+                "Managing and provisioning servers through machine-readable definition files rather than physical hardware configuration",
+                "Coding on a server",
+                "Writing code about infrastructure"
+            ],
+            "correct": 1,
+            "explanation": "IaC allows you to spin up entire server networks automatically using scripts (like Terraform) instead of clicking through web consoles manually."
+        }
+    ],
+    "cloud-computing": [
+        {
+            "id": 1,
+            "question": "Which of these is an example of Software as a Service (SaaS)?",
+            "options": [
+                "AWS EC2",
+                "Google Workspace / Gmail",
+                "A physical server rack",
+                "Heroku"
+            ],
+            "correct": 1,
+            "explanation": "Google Workspace is SaaS because the fully-functional software is delivered to the user over the internet."
+        },
+        {
+            "id": 2,
+            "question": "What does a Hybrid Cloud model do?",
+            "options": [
+                "Mixes public and private cloud environments",
+                "Uses multiple operating systems on one machine",
+                "Combines AI with Cloud Computing",
+                "Connects two public clouds together"
+            ],
+            "correct": 0,
+            "explanation": "A hybrid cloud connects an organization's secure on-premise private cloud with a public cloud provider like AWS."
+        },
+        {
+            "id": 3,
+            "question": "Virtualization is best described as:",
+            "options": [
+                "Creating a 3D interface",
+                "Creating a virtual version of a physical resource, like slicing a server into multiple Virtual Machines",
+                "Virtual reality gaming",
+                "Translating code into machine language"
+            ],
+            "correct": 1,
+            "explanation": "Virtualization uses a hypervisor to abstract physical hardware into multiple isolated virtual systems."
+        },
+        {
+            "id": 4,
+            "question": "What is characterized by Infrastructure as a Service (IaaS)?",
+            "options": [
+                "The provider manages everything including the application code",
+                "You manage the application code, but the provider manages the OS",
+                "The provider supplies raw compute, network, and storage; you manage the OS and everything above it",
+                "It only provides database services"
+            ],
+            "correct": 2,
+            "explanation": "IaaS (like AWS EC2) gives you an empty virtual machine where you have full control over the OS and software."
+        },
+        {
+            "id": 5,
+            "question": "Which of the following is an advantage of Cloud Auto-scaling?",
+            "options": [
+                "It automatically rewrites your code perfectly",
+                "It automatically adds or removes servers based on current traffic demand",
+                "It eliminates all cyber attacks",
+                "It scales the physical size of your laptop"
+            ],
+            "correct": 1,
+            "explanation": "Auto-scaling ensures you have enough servers during traffic spikes and don't pay for unused servers when traffic drops."
+        },
+        {
+            "id": 6,
+            "question": "What does shifting from CapEx to OpEx mean in cloud adoption?",
+            "options": [
+                "Stopping development",
+                "Paying high upfront physical server costs (CapEx) to paying ongoing usage-based cloud costs (OpEx)",
+                "Changing operating systems",
+                "Moving from Windows to Linux"
+            ],
+            "correct": 1,
+            "explanation": "Cloud turns massive Capital Expenses (buying data centers) into flexible Operating Expenses (paying only for what you rent)."
+        },
+        {
+            "id": 7,
+            "question": "What defines 'Serverless Computing'?",
+            "options": [
+                "Running apps without any physical computers existing",
+                "The provider dynamically manages server allocation per-request, so you only upload function code",
+                "Using a laptop instead of a server",
+                "Turning the servers off permanently"
+            ],
+            "correct": 1,
+            "explanation": "In Serverless (like AWS Lambda), servers still exist, but you don't manage them. You just write functions that run instantly on demand."
+        },
+        {
+            "id": 8,
+            "question": "Which role focuses on the high-level strategy of which cloud services a business should combine?",
+            "options": [
+                "Cloud Architect",
+                "Cloud Engineer",
+                "Database Admin",
+                "Frontend Developer"
+            ],
+            "correct": 0,
+            "explanation": "A Cloud Architect designs the blueprint, deciding how databases, servers, and networks will integrate securely in the cloud."
+        },
+        {
+            "id": 9,
+            "question": "High Availability in cloud computing is achieved primarily by:",
+            "options": [
+                "Using stronger passwords",
+                "Redundantly storing data across different geographic zones to survive local outages",
+                "Buying the most expensive tier",
+                "Turning off the firewall"
+            ],
+            "correct": 1,
+            "explanation": "High Availability zones ensure that if a data center in New York loses power, a redundant server in Ohio seamlessly takes over."
+        },
+        {
+            "id": 10,
+            "question": "Platform as a Service (PaaS) is best suited for:",
+            "options": [
+                "A company wanting to build custom Linux kernels",
+                "A developer wanting to deploy code quickly without ever touching server configuration or patching OS layers",
+                "Buying out-of-the-box email software",
+                "Storing local Word documents"
+            ],
+            "correct": 1,
+            "explanation": "PaaS (like Heroku) abstracts away server management, letting developers focus 100% on their application code."
+        }
+    ],
+    "full-stack": [
+        {
+            "id": 1,
+            "question": "What does CRUD stand for in web development?",
+            "options": [
+                "Create, Read, Update, Delete",
+                "Copy, Run, Upload, Download",
+                "Code, Render, Understand, Deploy",
+                "Compile, Read, Undo, Debug"
+            ],
+            "correct": 0,
+            "explanation": "CRUD describes the four basic database operations of persistent storage in backend applications."
+        },
+        {
+            "id": 2,
+            "question": "What does 'Mobile-first design' mean?",
+            "options": [
+                "The application only runs on mobiles",
+                "Designing the UI for small mobile screens first, then expanding to desktop layouts",
+                "Using mobile data for the internet connection",
+                "Writing code on a mobile device"
+            ],
+            "correct": 1,
+            "explanation": "Designing for mobile first ensures core usability is strong before dealing with complex wide-screen desktop layouts."
+        },
+        {
+            "id": 3,
+            "question": "In a Full Stack environment, React is typically used for:",
+            "options": [
+                "Database management",
+                "Backend routing",
+                "Frontend UI development",
+                "Server administration"
+            ],
+            "correct": 2,
+            "explanation": "React is a JavaScript library used to build dynamic, component-based user interfaces on the frontend."
+        },
+        {
+            "id": 4,
+            "question": "What is the key characteristic of a Single Page Application (SPA)?",
+            "options": [
+                "It only has 10 lines of code",
+                "JavaScript dynamically rewrites the current page rather than loading whole new HTML pages from the server",
+                "It cannot have a backend",
+                "It only works on one specific browser"
+            ],
+            "correct": 1,
+            "explanation": "SPAs load a single HTML document and update the body content dynamically without requiring a hard refresh, creating a smooth experience."
+        },
+        {
+            "id": 5,
+            "question": "Which technology is primarily used to style the layout and aesthetics of a webpage?",
+            "options": [
+                "HTML",
+                "JavaScript",
+                "CSS",
+                "Python"
+            ],
+            "correct": 2,
+            "explanation": "Cascading Style Sheets (CSS) dictate colors, grid layouts, fonts, and responsiveness on the frontend."
+        },
+        {
+            "id": 6,
+            "question": "In UI/UX design, what does 'UX' focus on?",
+            "options": [
+                "Which color of blue to use",
+                "The overall user journey, wireframing workflows, and minimizing friction",
+                "Writing the backend API",
+                "Setting up the database"
+            ],
+            "correct": 1,
+            "explanation": "UX (User Experience) is about the structural flow and ease of use, whereas UI (User Interface) is about the final visual polish."
+        },
+        {
+            "id": 7,
+            "question": "What distinguishes a NoSQL database (like MongoDB) from a traditional SQL relational database?",
+            "options": [
+                "NoSQL databases are physically slower",
+                "NoSQL stores unstructured documents instead of rigid table rows and columns",
+                "NoSQL databases don't use the internet",
+                "SQL databases are entirely frontend"
+            ],
+            "correct": 1,
+            "explanation": "NoSQL allows for flexible, JSON-like document storage which is highly scalable for unstructured data."
+        },
+        {
+            "id": 8,
+            "question": "What is the primary function of an API?",
+            "options": [
+                "To design the user interface",
+                "To act as a bridge allowing the frontend and backend software to communicate data",
+                "To block hackers",
+                "To render 3D graphics"
+            ],
+            "correct": 1,
+            "explanation": "Application Programming Interfaces (APIs) receive requests from the frontend, grab data from the backend, and send it back."
+        },
+        {
+            "id": 9,
+            "question": "Which role focuses heavily on server performance, API routing, and database queries?",
+            "options": [
+                "Frontend Developer",
+                "Backend Engineer",
+                "UI Designer",
+                "UX Researcher"
+            ],
+            "correct": 1,
+            "explanation": "Backend engineers handle the logic, security, and data storage invisible to the end user."
+        },
+        {
+            "id": 10,
+            "question": "What tool is an industry standard for collaborative UI/UX mockup design before coding begins?",
+            "options": [
+                "Figma",
+                "MongoDB",
+                "Node.js",
+                "Terminal"
+            ],
+            "correct": 0,
+            "explanation": "Figma allows designers to create interactive, high-fidelity visual prototypes without writing any CSS or HTML."
+        }
+    ]
+}

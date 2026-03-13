@@ -1,0 +1,796 @@
+{
+    "data-science": {
+        "title": "Data Science & Big Data",
+        "description": "Learn to extract insights from massive datasets.",
+        "intro": "Data Science is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data.",
+        "diagramId": "data-science",
+        "sections": [
+            {
+                "title": "Applications of Data Science",
+                "explanation": "Data science is used to identify patterns in large datasets, allowing organizations to make data-driven decisions ranging from operational efficiencies to entirely new product offerings.",
+                "keyPoints": [
+                    "Fraud detection in banking and finance.",
+                    "Healthcare recommendations and predictive disease tracking.",
+                    "Targeted advertising and customer segmentation in retail.",
+                    "Logistics routing and supply chain optimization."
+                ],
+                "example": "Netflix uses data science to analyze your viewing habits and recommend the exact shows you are most likely to binge next.",
+                "summary": "Data science turns raw data into actionable business value."
+            },
+            {
+                "title": "Data Science Lifecycle",
+                "explanation": "The lifecycle of a data science project follows a structured methodology to ensure analytical models are accurate, reliable, and solve the right problems.",
+                "keyPoints": [
+                    "Capture: Data acquisition, data entry, signal reception, data extraction.",
+                    "Maintain: Data warehousing, data cleansing, data staging, data architecture.",
+                    "Process: Data mining, clustering/classification, data modeling.",
+                    "Analyze: Exploratory/confirmatory, predictive analysis, regression.",
+                    "Communicate: Data reporting, data visualization, business intelligence."
+                ],
+                "example": "A retail store captures daily sales data, cleans it to remove errors, analyzes it to spot seasonal trends, and creates a dashboard to communicate next season's stocking strategy.",
+                "summary": "Every data project requires capturing, cleaning, processing, analyzing, and communicating data."
+            },
+            {
+                "title": "Big Data and the 3Vs",
+                "explanation": "Big Data refers to datasets whose size or type is beyond the ability of traditional relational databases to capture, manage, and process with low latency.",
+                "keyPoints": [
+                    "Volume: The sheer amount of data generated every second (e.g., millions of tweets).",
+                    "Velocity: The speed at which new data is generated and moves around (e.g., real-time streaming).",
+                    "Variety: The different types of data formats (structured, unstructured, semi-structured)."
+                ],
+                "example": "Social media platforms generate terabytes of photos, videos, tags, and comments every single hour—all of which represent immense Volume, high Velocity, and complex Variety.",
+                "summary": "Big Data is defined by Volume, Velocity, and Variety."
+            },
+            {
+                "title": "Big Data Tools & Cloud Processing",
+                "explanation": "Handling big data requires specialized software architectures designed for distributed storage and massive parallel processing. Cloud platforms make this accessible without owning data centers.",
+                "keyPoints": [
+                    "Hadoop & Spark: Frameworks for distributed storage and rapid processing.",
+                    "Tableau & PowerBI: Powerful data visualization platforms.",
+                    "Cloud Infrastructure: AWS EMR, Google BigQuery, and Azure Synapse provide on-demand massive computing power."
+                ],
+                "example": "Instead of buying 100 servers, a startup uses Google BigQuery to analyze ten years of weather data in just three seconds, paying only for the compute time used.",
+                "summary": "Modern big data relies on distributed, cloud-based tools rather than single massive computers."
+            }
+        ],
+        "revision": {
+            "keyConcepts": [
+                "Big Data 3Vs",
+                "Data Lifecycle",
+                "Predictive Analysis",
+                "Distributed Computing"
+            ],
+            "importantDefinitions": [
+                {
+                    "term": "Data Mining",
+                    "definition": "The practice of analyzing large databases to generate new information."
+                }
+            ],
+            "tools": [
+                "Hadoop",
+                "Spark",
+                "Tableau",
+                "AWS EMR"
+            ],
+            "keywords": [
+                "Volume",
+                "Velocity",
+                "Variety",
+                "Structure",
+                "Algorithm"
+            ]
+        },
+        "career": {
+            "intro": "The data domain generally splits into engineering (building pipelines) and science (analyzing data).",
+            "roles": [
+                {
+                    "name": "Data Scientist",
+                    "desc": "Builds complex analytical models to predict future trends.",
+                    "skills": [
+                        "Python/R",
+                        "Machine Learning",
+                        "Statistics"
+                    ]
+                },
+                {
+                    "name": "Data Analyst",
+                    "desc": "Interprets historical data to answer present business questions.",
+                    "skills": [
+                        "SQL",
+                        "Excel",
+                        "Tableau/Power BI"
+                    ]
+                },
+                {
+                    "name": "Data Engineer",
+                    "desc": "Builds the infrastructure and pipelines that collect and clean the data.",
+                    "skills": [
+                        "Hadoop",
+                        "Spark",
+                        "Cloud Architecture",
+                        "Database Design"
+                    ]
+                }
+            ]
+        },
+        "certifications": [
+            {
+                "name": "Google Data Analytics Professional",
+                "provider": "Coursera / Google",
+                "difficulty": "Beginner",
+                "duration": "6 months",
+                "skills": "R, SQL, Tableau, Spreadsheets",
+                "link": "https://www.coursera.org/professional-certificates/google-data-analytics"
+            },
+            {
+                "name": "AWS Certified Data Engineer",
+                "provider": "Amazon Web Services",
+                "difficulty": "Intermediate",
+                "duration": "130 mins exam",
+                "skills": "AWS Kinesis, Redshift, Glue, Big Data",
+                "link": "https://aws.amazon.com/certification/certified-data-engineer-associate/"
+            }
+        ],
+        "projects": [
+            {
+                "name": "Sales Dashboard Analytics",
+                "desc": "Use a public retail dataset (Kaggle) to create an interactive dashboard in Tableau or PowerBI showing weekly trends."
+            },
+            {
+                "name": "Movie Recommendation Script",
+                "desc": "Write a simple Python script using Pandas that recommends movies based on a user's previous high ratings."
+            }
+        ]
+    },
+    "ai-ml": {
+        "title": "Artificial Intelligence & Machine Learning",
+        "description": "Explore the future of tech with neural networks and AI.",
+        "intro": "Artificial Intelligence (AI) is the simulation of human intelligence by machines. Machine Learning (ML) is a subset of AI where systems learn from data.",
+        "diagramId": "ai-ml",
+        "sections": [
+            {
+                "title": "Understanding AI, ML, and Deep Learning",
+                "explanation": "These terms are often used interchangeably, but they form a nested hierarchy of concepts from broad goals to specific techniques.",
+                "keyPoints": [
+                    "AI: The overarching concept of machines being able to carry out tasks in a way that we would consider 'smart'.",
+                    "Machine Learning: An application of AI based on the idea of giving machines access to data and letting them learn for themselves.",
+                    "Deep Learning: A subset of ML utilizing deeply layered neural networks to process unstructured data like images or audio."
+                ],
+                "example": "A computer playing chess is AI. A system learning to predict house prices based on historical sales is ML. Software identifying cancer in medical X-ray imaging is Deep Learning.",
+                "summary": "Deep Learning is a specialized ML technique, and ML is a practical path to achieving AI."
+            },
+            {
+                "title": "Expert Systems & Fuzzy Logic",
+                "explanation": "Prior to modern data-driven ML, Expert Systems used massive rule-bases defined by human experts. Fuzzy logic allows these systems to handle ambiguous, non-binary inputs.",
+                "keyPoints": [
+                    "Expert Systems replicate the decision-making of a human expert via 'If-Then' rules.",
+                    "Fuzzy Logic processes 'degrees of truth' rather than strict true/false boolean logic.",
+                    "These remain highly effective for bounded, well-defined industrial control systems."
+                ],
+                "example": "An expert system in a hospital might flag potential drug interactions based on a hardcoded rule list. A fuzzy logic controller manages the smooth braking in a modern subway train based on varying passenger loads and speeds.",
+                "summary": "Not all AI uses neural networks; rule-based and fuzzy systems are still pivotal in industrial automation."
+            },
+            {
+                "title": "Natural Language Processing (NLP)",
+                "explanation": "NLP is the ability of a computer program to understand human language as it is spoken and written. It bridges the gap between human communication and computer understanding.",
+                "keyPoints": [
+                    "Involves parsing text, analyzing sentiment, and generating coherent responses.",
+                    "Powers technologies like ChatGPT, Siri, semantic search, and automated translation.",
+                    "Modern NLP relies heavily on Large Language Models (LLMs) trained on vast internet datasets."
+                ],
+                "example": "When you ask a digital assistant for the weather, NLP translates your audio waveform into text, determines your intent ('weather status'), identifies the location parameter ('here'), and formulates a colloquial spoken response.",
+                "summary": "NLP allows machines to read, process, and output text in a remarkably human-like manner."
+            },
+            {
+                "title": "Current Applications & Job Roles",
+                "explanation": "AI is no longer theoretical research; it is actively transforming major industries every day.",
+                "keyPoints": [
+                    "Healthcare: Disease prediction, personalized medicine, genomic analysis.",
+                    "Agriculture: Drone-based crop monitoring and automated pest detection models.",
+                    "Automotive: Real-time computer vision processing for autonomous driving."
+                ],
+                "example": "Tesla's Autopilot uses 8 surround cameras feeding live video into a neural network that identifies lane lines, pedestrians, and vehicles simultaneously to safely steer the car.",
+                "summary": "AI applications are ubiquitous, highly specialized, and demand intense computing resources."
+            }
+        ],
+        "revision": {
+            "keyConcepts": [
+                "Neural Networks",
+                "NLP",
+                "Machine Learning",
+                "Computer Vision"
+            ],
+            "importantDefinitions": [
+                {
+                    "term": "Training Data",
+                    "definition": "The initial dataset used to teach an ML algorithm how to make predictions."
+                }
+            ],
+            "tools": [
+                "TensorFlow",
+                "PyTorch",
+                "OpenAI API",
+                "Hugging Face"
+            ],
+            "keywords": [
+                "Algorithm",
+                "LLM",
+                "Deep Learning",
+                "Generative AI"
+            ]
+        },
+        "career": {
+            "intro": "Careers in AI require strong mathematical foundations and programming skills.",
+            "roles": [
+                {
+                    "name": "Machine Learning Engineer",
+                    "desc": "Designs, builds, and deploys ML models to production environments.",
+                    "skills": [
+                        "Python",
+                        "TensorFlow/PyTorch",
+                        "Software Engineering"
+                    ]
+                },
+                {
+                    "name": "NLP Scientist",
+                    "desc": "Specializes in language models, text generation, and speech recognition.",
+                    "skills": [
+                        "Linguistics",
+                        "Deep Learning",
+                        "LLM Fine-tuning"
+                    ]
+                },
+                {
+                    "name": "AI Ethicist",
+                    "desc": "Ensures AI models are unbiased, transparent, and comply with regulations.",
+                    "skills": [
+                        "Data Governance",
+                        "Ethics",
+                        "Policy Design"
+                    ]
+                }
+            ]
+        },
+        "certifications": [
+            {
+                "name": "Machine Learning Specialization",
+                "provider": "DeepLearning.AI / Stanford",
+                "difficulty": "Intermediate",
+                "duration": "2 months",
+                "skills": "Supervised Learning, Neural Networks",
+                "link": "https://www.coursera.org/specializations/machine-learning-introduction"
+            },
+            {
+                "name": "TensorFlow Developer Certificate",
+                "provider": "Google",
+                "difficulty": "Advanced",
+                "duration": "Depends on pace",
+                "skills": "Computer Vision, NLP, TensorFlow",
+                "link": "https://www.tensorflow.org/certificate"
+            }
+        ],
+        "projects": [
+            {
+                "name": "Spam Text Classifier",
+                "desc": "Build a basic ML model using Python's Scikit-learn that classifies user input texts as spam or ham."
+            },
+            {
+                "name": "Custom Chatbot Interface",
+                "desc": "Use an API like OpenAI to build a simple web interface chatbot customized to answer questions about a specific topic."
+            }
+        ]
+    },
+    "cybersecurity": {
+        "title": "Cybersecurity",
+        "description": "Protect systems and networks from digital attacks.",
+        "intro": "Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks aimed at accessing, changing, or destroying sensitive information.",
+        "diagramId": "cybersecurity",
+        "sections": [
+            {
+                "title": "The CIA Triad",
+                "explanation": "The CIA Triad is the foundational model guiding all information security policies within an organization.",
+                "keyPoints": [
+                    "Confidentiality: Ensuring only authorized users have access to sensitive data (e.g., encryption, passwords).",
+                    "Integrity: Validating that data has not been tampered with or altered (e.g., hash functions, file permissions).",
+                    "Availability: Guaranteeing trusted users have uninterrupted access to data (e.g., DDoS protection, server backups)."
+                ],
+                "example": "A hospital database encrypts patient records (Confidentiality), checks digital signatures to ensure records aren't modified maliciously (Integrity), and uses redundant cloud servers to ensure doctors can always log in (Availability).",
+                "summary": "Every security measure is designed to uphold at least one pillar of the CIA Triad."
+            },
+            {
+                "title": "Common Cyber Threats",
+                "explanation": "Threat actors employ a variety of techniques to circumvent security controls. Understanding the attack vector is crucial to defending against it.",
+                "keyPoints": [
+                    "Malware/Ransomware: Malicious software that damages systems or encrypts files until money is paid.",
+                    "Phishing: Social engineering tactics (usually emails) tricking users into handing over passwords or downloading malware.",
+                    "Denial of Service (DoS): Flooding a server with fake traffic to crash it and deny service to real users.",
+                    "Zero-Day Exploits: Attacks that utilize software vulnerabilities completely unknown to the vendor."
+                ],
+                "example": "Employees at a corporation receive an email supposedly from IT asking them to 'verify their login' via a fake link. The attackers capture the typed passwords. This is Phishing.",
+                "summary": "The weakest link in cybersecurity is often human error exploited via social engineering."
+            },
+            {
+                "title": "Defense Mechanisms & Tools",
+                "explanation": "Security professionals utilize specialized tools to monitor networks, scan for vulnerabilities, and defend infrastructure.",
+                "keyPoints": [
+                    "Network Mapping (Nmap): Scanning a network to discover open ports and vulnerable services.",
+                    "Packet Analysis (Wireshark): Inspecting raw network traffic to detect malicious data transfers.",
+                    "Firewalls & VPNs: Filtering incoming traffic and encrypting outbound traffic on insecure networks."
+                ],
+                "example": "A security analyst uses Wireshark and notices an internal employee's laptop sending gigabytes of encrypted files to an unknown Russian IP address at 2 AM, indicating a likely malware exfiltration attack.",
+                "summary": "Effective defense requires continuous monitoring, strong encryption, and strict access controls."
+            }
+        ],
+        "revision": {
+            "keyConcepts": [
+                "CIA Triad",
+                "Social Engineering",
+                "Encryption",
+                "Vulnerability Management"
+            ],
+            "importantDefinitions": [
+                {
+                    "term": "Zero-Day",
+                    "definition": "A vulnerability that is attacked before the software vendor is aware of it or has patched it."
+                }
+            ],
+            "tools": [
+                "Nmap",
+                "Wireshark",
+                "Metasploit",
+                "Firewalls"
+            ],
+            "keywords": [
+                "Malware",
+                "Phishing",
+                "Hash",
+                "Ransomware"
+            ]
+        },
+        "career": {
+            "intro": "Cybersecurity has high demand, covering defensive measures, offensive testing, and corporate compliance.",
+            "roles": [
+                {
+                    "name": "Security Operations Analyst (SOC)",
+                    "desc": "Monitors network traffic 24/7 to identify and respond to active threats.",
+                    "skills": [
+                        "SIEM Tools",
+                        "Network Protocols",
+                        "Incident Response"
+                    ]
+                },
+                {
+                    "name": "Penetration Tester (Ethical Hacker)",
+                    "desc": "Legally hacks into company systems to find and report flaws before criminals do.",
+                    "skills": [
+                        "Kali Linux",
+                        "Exploitation frameworks",
+                        "Web App Vulnerabilities"
+                    ]
+                },
+                {
+                    "name": "Security Architect",
+                    "desc": "Designs secure robust network structures to prevent breaches by default.",
+                    "skills": [
+                        "Cloud Security",
+                        "Cryptography",
+                        "Risk Assessment"
+                    ]
+                }
+            ]
+        },
+        "certifications": [
+            {
+                "name": "CompTIA Security+",
+                "provider": "CompTIA",
+                "difficulty": "Beginner",
+                "duration": "90 mins exam",
+                "skills": "Threat assessment, Cryptography, Network security",
+                "link": "https://www.comptia.org/certifications/security"
+            },
+            {
+                "name": "Google Cybersecurity Professional",
+                "provider": "Coursera",
+                "difficulty": "Beginner",
+                "duration": "3 months",
+                "skills": "Linux, Python, SIEM tools, Packets",
+                "link": "https://www.coursera.org/professional-certificates/google-cybersecurity"
+            }
+        ],
+        "projects": [
+            {
+                "name": "Password Strength Checker",
+                "desc": "Create a simple web tool using JavaScript that analyzes password entropy, length, and common patterns to grade its security."
+            },
+            {
+                "name": "Network Scanner Implementation",
+                "desc": "Write a Python script using the 'scapy' library to perform a basic ping sweep of your local home network to discover connected devices."
+            }
+        ]
+    },
+    "devops-testing": {
+        "title": "DevOps & Software Testing",
+        "description": "Master CI/CD pipelines and automated testing.",
+        "intro": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle and provide continuous delivery.",
+        "diagramId": "devops-testing",
+        "sections": [
+            {
+                "title": "The CI/CD Pipeline",
+                "explanation": "Continuous Integration (CI) and Continuous Deployment (CD) form the backbone of modern DevOps. They ensure that code is constantly tested, integrated, and pushed to servers automatically.",
+                "keyPoints": [
+                    "Continuous Integration: Developers merge code to a central branch daily. Automated unit tests run on every merge.",
+                    "Continuous Delivery: Code that passes CI is built and prepared for a release instantly.",
+                    "Continuous Deployment: Code is automatically pushed to live production servers without manual human intervention."
+                ],
+                "example": "A developer patches a bug and pushes to GitHub. A Jenkins server immediately detects the push, runs 500 automated tests, builds the Docker image, and updates the live website—all in 5 minutes.",
+                "summary": "CI/CD automates the bridge between writing code and shipping code."
+            },
+            {
+                "title": "Containerization (Docker)",
+                "explanation": "Historically, software worked on a developer's laptop but failed on the production server due to different settings. Containerization isolates the environment completely.",
+                "keyPoints": [
+                    "A Docker 'Image' contains the code, runtime, libraries, and settings needed to run an app.",
+                    "A Docker 'Container' is a running instance of that image.",
+                    "Containers are lightweight, fast to start, and guarantee behavior parity across any OS."
+                ],
+                "example": "Instead of installing Node, Redis, and Python manually on a staging server, a DevOps engineer simply runs three Docker containers. If the server crashes, they just spin the containers up on a new server instantly.",
+                "summary": "Containers ensure 'it works on my machine' means 'it works on the server too'."
+            },
+            {
+                "title": "Testing Fundamentals Strategy",
+                "explanation": "DevOps relies entirely on automated testing. If code isn't tested, deploying automatically is dangerous.",
+                "keyPoints": [
+                    "Unit Testing: Testing single individual functions for correctness.",
+                    "Integration Testing: Testing how multiple functions or services interact.",
+                    "End-to-End (E2E) Testing: Simulating a real user clicking through the entire application UI (e.g., Selenium/Cypress)."
+                ],
+                "example": "For an e-commerce site, a unit test checks if the shopping cart addition math is correct. An E2E test opens a browser, clicks 'Add to Cart', fills fake credit card details, and submits an order.",
+                "summary": "Comprehensive tests map directly to application reliability."
+            }
+        ],
+        "revision": {
+            "keyConcepts": [
+                "CI/CD",
+                "Containerization",
+                "Infrastructure as Code",
+                "Automated QA"
+            ],
+            "importantDefinitions": [
+                {
+                    "term": "Orchestration",
+                    "definition": "The automated configuration, management, and coordination of massive fleets of containers (e.g., Kubernetes)."
+                }
+            ],
+            "tools": [
+                "Git",
+                "Docker",
+                "Jenkins",
+                "Selenium",
+                "Ansible"
+            ],
+            "keywords": [
+                "Pipeline",
+                "Image",
+                "Deployment",
+                "Testing"
+            ]
+        },
+        "career": {
+            "intro": "DevOps bridges the gap between coding and systems administration. It requires broad system knowledge.",
+            "roles": [
+                {
+                    "name": "DevOps Engineer",
+                    "desc": "Builds and maintains CI/CD pipelines and cloud infrastructure.",
+                    "skills": [
+                        "Linux",
+                        "Docker/Kubernetes",
+                        "AWS",
+                        "Bash/Python"
+                    ]
+                },
+                {
+                    "name": "Site Reliability Engineer (SRE)",
+                    "desc": "Ensures systems are highly available and highly scalable through software engineering approaches.",
+                    "skills": [
+                        "System Architecture",
+                        "Performance Tuning",
+                        "Programming"
+                    ]
+                },
+                {
+                    "name": "QA Automation Engineer",
+                    "desc": "Writes code specifically designed to robustly test the main product code.",
+                    "skills": [
+                        "Selenium/Cypress",
+                        "JavaScript/Python",
+                        "Testing Frameworks"
+                    ]
+                }
+            ]
+        },
+        "certifications": [
+            {
+                "name": "AWS Certified DevOps Engineer",
+                "provider": "Amazon Web Services",
+                "difficulty": "Advanced",
+                "duration": "180 mins exam",
+                "skills": "CI/CD on AWS, Automation, Security",
+                "link": "https://aws.amazon.com/certification/certified-devops-engineer-professional/"
+            },
+            {
+                "name": "Docker Certified Associate",
+                "provider": "Mirantis / Docker",
+                "difficulty": "Intermediate",
+                "duration": "90 mins exam",
+                "skills": "Orchestration, Swarm, Image Creation",
+                "link": "https://training.mirantis.com/certification"
+            }
+        ],
+        "projects": [
+            {
+                "name": "Dockerized Web App",
+                "desc": "Write a simple 'Hello World' Node.js app, create a Dockerfile for it, and run it as an isolated container on your local machine."
+            },
+            {
+                "name": "GitHub Actions Pipeline",
+                "desc": "Set up a GitHub repository containing JavaScript tests that automatically execute via GitHub Actions CI pipeline on every push."
+            }
+        ]
+    },
+    "cloud-computing": {
+        "title": "Cloud Computing",
+        "description": "Build scalable solutions using modern cloud architecture models.",
+        "intro": "Cloud computing is the on-demand delivery of IT resources and applications over the Internet with pay-as-you-go pricing.",
+        "diagramId": "cloud-computing",
+        "sections": [
+            {
+                "title": "Cloud Service Models",
+                "explanation": "Cloud computing provides varying levels of control, flexibility, and management via three primary service models: IaaS, PaaS, and SaaS.",
+                "keyPoints": [
+                    "Infrastructure as a Service (IaaS): Provides raw compute, storage, and networking. You manage the OS and runtime (e.g., AWS EC2).",
+                    "Platform as a Service (PaaS): Removes the need to manage underlying OS/Servers. You just deploy your code (e.g., Heroku, AWS Elastic Beanstalk).",
+                    "Software as a Service (SaaS): Fully functional software accessed via a browser (e.g., Google Docs, Salesforce)."
+                ],
+                "example": "A company building a custom highly-secure database sets up raw Linux servers using IaaS. A solo developer deploying a quick React app uses PaaS so they don't have to patch server software.",
+                "summary": "The service model dictates how much the provider manages vs how much you manage."
+            },
+            {
+                "title": "Virtualization",
+                "explanation": "Virtualization is the foundational technology that makes cloud computing possible. It allows physical servers to be sliced into multiple isolated virtual computers.",
+                "keyPoints": [
+                    "A Hypervisor allocates physical memory, CPU, and storage to distinct Virtual Machines (VMs).",
+                    "This allows cloud providers to pack hundreds of client VMs onto a single massive hardware rack securely.",
+                    "It maximizes resource utilization and drives down costs globally."
+                ],
+                "example": "When you click 'Create Server' in AWS, an Amazon data center doesn't physically plug in a new box. A hypervisor simply carves out 2GB of RAM and 1 CPU core from an existing mammoth server and boots up an isolated Linux OS for you.",
+                "summary": "Virtualization abstracts software away from physical hardware."
+            },
+            {
+                "title": "Benefits of Cloud Migration",
+                "explanation": "Migrating to the cloud provides immense strategic advantages over maintaining on-premise hardware.",
+                "keyPoints": [
+                    "Scalability: Services can autoscale from 1 server to 100 servers during traffic spikes and scale back down instantly.",
+                    "High Availability: Data is redundantly stored across geographic zones; if a datacenter loses power, another takes over seamlessly.",
+                    "Cost Efficiency: Pay only for the exact seconds of computing you use (CapEx to OpEx shift)."
+                ],
+                "example": "An e-commerce retailer pays for just two small servers year-round. On Black Friday, the cloud automatically scales them to fifty massive servers for 24 hours, handling the traffic spike perfectly, and scales back on Saturday.",
+                "summary": "Cloud provides infinite, instant resources while preventing overspending."
+            }
+        ],
+        "revision": {
+            "keyConcepts": [
+                "Service Models (IaaS/PaaS)",
+                "Virtualization",
+                "Auto-scaling",
+                "High Availability Zones"
+            ],
+            "importantDefinitions": [
+                {
+                    "term": "Serverless Computing",
+                    "definition": "A model where the cloud provider manages server allocation dynamically per-request. You strictly write code functions (e.g., AWS Lambda)."
+                }
+            ],
+            "tools": [
+                "AWS CloudFormation",
+                "Terraform",
+                "Google Cloud Storage",
+                "Azure Active Directory"
+            ],
+            "keywords": [
+                "IaaS",
+                "PaaS",
+                "SaaS",
+                "Hypervisor"
+            ]
+        },
+        "career": {
+            "intro": "Cloud engineers design architectures that can withstand immense scale and complexity.",
+            "roles": [
+                {
+                    "name": "Cloud Architect",
+                    "desc": "Designs the overarching strategy, deciding which specific cloud services to combine for a business.",
+                    "skills": [
+                        "System Design",
+                        "Cost Optimization",
+                        "AWS/Azure Mastery"
+                    ]
+                },
+                {
+                    "name": "Cloud Engineer",
+                    "desc": "Executes the architect's vision, scripting the deployment of cloud components.",
+                    "skills": [
+                        "Infrastructure as Code",
+                        "Networking",
+                        "Linux"
+                    ]
+                },
+                {
+                    "name": "Cloud Administrator",
+                    "desc": "Manages identity access, billing, and day-to-day operations of an established cloud environment.",
+                    "skills": [
+                        "IAM",
+                        "Security Policies",
+                        "Monitoring Tools"
+                    ]
+                }
+            ]
+        },
+        "certifications": [
+            {
+                "name": "AWS Certified Cloud Practitioner",
+                "provider": "Amazon Web Services",
+                "difficulty": "Beginner",
+                "duration": "90 mins exam",
+                "skills": "Basic Cloud Concepts, AWS Billing, Fundamentals",
+                "link": "https://aws.amazon.com/certification/certified-cloud-practitioner/"
+            },
+            {
+                "name": "Microsoft Certified: Azure Fundamentals",
+                "provider": "Microsoft",
+                "difficulty": "Beginner",
+                "duration": "45 mins exam",
+                "skills": "Azure services, Cloud concepts, Security",
+                "link": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/"
+            }
+        ],
+        "projects": [
+            {
+                "name": "Static Website Hosting",
+                "desc": "Deploy a static HTML/CSS portfolio website to Amazon S3 making it publicly accessible over the internet."
+            },
+            {
+                "name": "Serverless Function Setup",
+                "desc": "Write an AWS Lambda function in Python that triggers when a file is uploaded to an S3 bucket and prints a log."
+            }
+        ]
+    },
+    "full-stack": {
+        "title": "Full Stack Web Development & UI/UX",
+        "description": "Design and code web applications end-to-end.",
+        "intro": "Full Stack Development refers to the development of both frontend (client-side) and backend (server-side) portions of a web application. UI/UX principles ensure the application is usable and visually appealing.",
+        "diagramId": "full-stack",
+        "sections": [
+            {
+                "title": "Frontend Technologies & SPA",
+                "explanation": "The frontend is the visual interface users interact with. Modern frontends often utilize Single Page Applications (SPAs) providing a seamless, desktop-app-like experience.",
+                "keyPoints": [
+                    "HTML structures content, CSS styles it, and JavaScript adds interactivity.",
+                    "Libraries like React, Vue, or Angular manage complex UI states efficiently.",
+                    "In an SPA, when a user navigates, JS dynamically rewrites the current page rather than loading whole new HTML pages from the server."
+                ],
+                "example": "When you click a button to 'like' a post on Instagram, the page does not refresh. A JavaScript function updates the icon to red (UI update) and quietly sends that data to the server in the background.",
+                "summary": "Frontends focus on instant, responsive interactivity for the user."
+            },
+            {
+                "title": "Backend Logic & Databases",
+                "explanation": "The backend handles the core business logic, user authentication, and persistent data storage.",
+                "keyPoints": [
+                    "Servers use languages like Node.js, Python, or Java to process requests and enforce business rules.",
+                    "Relational Databases (SQL) store structured data in tables (e.g., PostgreSQL).",
+                    "NoSQL Databases store unstructured document data (e.g., MongoDB).",
+                    "APIs (Application Programming Interfaces) bridge the communication gap between frontend and backend."
+                ],
+                "example": "When you purchase an item on an ecommerce site, the backend verifies credit card details, deducts inventory in the SQL database, and commands an email server to send you a receipt.",
+                "summary": "The backend handles the 'brain' and memory of the application securely."
+            },
+            {
+                "title": "UI & UX Design Fundamentals",
+                "explanation": "Before writing code, designers plan how an application works intuitively (UX) and how it looks aesthetically (UI).",
+                "keyPoints": [
+                    "UX (User Experience): Focuses on user journeys, wireframes, minimizing friction, and accessibility.",
+                    "UI (User Interface): Focuses on typography, color palettes, spacing, and brand identity.",
+                    "Mobile-First Design: Emphasizes designing layouts for small mobile screens first before expanding designs for desktops to guarantee readability."
+                ],
+                "example": "A UX designer notices users abandon a checkout cart because it spans 5 pages. They redesign it into a 1-page accordion flow. A UI designer then styles that page with clear contrast and inviting button colors.",
+                "summary": "UX determines how it works; UI determines how it looks."
+            }
+        ],
+        "revision": {
+            "keyConcepts": [
+                "SPA Flow",
+                "CRUD Operations",
+                "Mobile-First Design",
+                "Client-Server Architecture"
+            ],
+            "importantDefinitions": [
+                {
+                    "term": "REST API",
+                    "definition": "A standardized set of rules that developers follow to allow their software programs to communicate over the web."
+                }
+            ],
+            "tools": [
+                "React",
+                "Express.js",
+                "MongoDB",
+                "Figma",
+                "Tailwind CSS"
+            ],
+            "keywords": [
+                "Frontend",
+                "Backend",
+                "Database",
+                "Wireframe"
+            ]
+        },
+        "career": {
+            "intro": "Web development allows creators to build highly accessible software available to anyone with a browser.",
+            "roles": [
+                {
+                    "name": "Frontend Developer",
+                    "desc": "Focuses purely on the UI, state management, and API integration in the browser.",
+                    "skills": [
+                        "React/Vue",
+                        "CSS/Tailwind",
+                        "JavaScript/TypeScript"
+                    ]
+                },
+                {
+                    "name": "Backend Engineer",
+                    "desc": "Focuses on database performance, scalable server logic, and security.",
+                    "skills": [
+                        "Node/Python/Java",
+                        "SQL/MongoDB",
+                        "API Design"
+                    ]
+                },
+                {
+                    "name": "UI/UX Designer",
+                    "desc": "Designs mockups and conducts user research rather than writing production code.",
+                    "skills": [
+                        "Figma",
+                        "User Psychology",
+                        "Color Theory"
+                    ]
+                }
+            ]
+        },
+        "certifications": [
+            {
+                "name": "Meta Front-End Developer",
+                "provider": "Coursera / Meta",
+                "difficulty": "Beginner",
+                "duration": "7 months",
+                "skills": "React, HTML, CSS, Version Control",
+                "link": "https://www.coursera.org/professional-certificates/meta-front-end-developer"
+            },
+            {
+                "name": "Google UX Design Professional",
+                "provider": "Coursera / Google",
+                "difficulty": "Beginner",
+                "duration": "6 months",
+                "skills": "Figma, Wireframing, User Research",
+                "link": "https://www.coursera.org/professional-certificates/google-ux-design"
+            }
+        ],
+        "projects": [
+            {
+                "name": "To-Do List REST API",
+                "desc": "Build a Node/Express backend that effectively handles Create, Read, Update, and Delete routes for saving tasks to an array or simple database."
+            },
+            {
+                "name": "Figma App Mockup",
+                "desc": "Design a 3-screen mobile app mockup in Figma highlighting the login, dashboard, and settings screens with consistent modern styling."
+            }
+        ]
+    }
+}

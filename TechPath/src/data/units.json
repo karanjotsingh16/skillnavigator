@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Data Science & Big Data",
+        "description": "Learn to extract insights from massive datasets. Covers Big Data 3Vs, Hadoop, Tableau, and more.",
+        "icon": "Database",
+        "slug": "data-science",
+        "color": "bg-blue-500"
+    },
+    {
+        "id": 2,
+        "title": "Artificial Intelligence & Machine Learning",
+        "description": "Explore the future of tech with neural networks, NLP, and AI applications like ChatGPT and self-driving cars.",
+        "icon": "Brain",
+        "slug": "ai-ml",
+        "color": "bg-purple-500"
+    },
+    {
+        "id": 3,
+        "title": "Cybersecurity",
+        "description": "Protect systems and networks from digital attacks. Understand the CIA Triad, malware, and ethical hacking basics.",
+        "icon": "ShieldCheck",
+        "slug": "cybersecurity",
+        "color": "bg-red-500"
+    },
+    {
+        "id": 4,
+        "title": "DevOps & Software Testing",
+        "description": "Master CI/CD pipelines, containerization with Docker, and automated testing to streamline software delivery.",
+        "icon": "GitMerge",
+        "slug": "devops-testing",
+        "color": "bg-orange-500"
+    },
+    {
+        "id": 5,
+        "title": "Cloud Computing",
+        "description": "Build scalable solutions. Discover IaaS, PaaS, SaaS, virtualization, and modern cloud architecture models.",
+        "icon": "Cloud",
+        "slug": "cloud-computing",
+        "color": "bg-teal-500"
+    },
+    {
+        "id": 6,
+        "title": "Full Stack Web Development & UI/UX",
+        "description": "Design and code web applications end-to-end. Master HTML, CSS, React, backend concepts, and user experience.",
+        "icon": "Layout",
+        "slug": "full-stack",
+        "color": "bg-indigo-500"
+    }
+]
